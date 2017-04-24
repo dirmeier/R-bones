@@ -1,6 +1,6 @@
 ## Versions
 
-### v0.0.2
+### v0.0.2 and v.0.0.3
 
 * minor fixes
 
