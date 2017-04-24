@@ -1,5 +1,5 @@
 {
-  "name": "generator-R-bones",
+  "name": "generator-r-bones",
   "version": "0.0.1",
   "description": "A yeoman-generator for R projects",
   "homepage": "https://github.com/dirmeier/R-bones",
