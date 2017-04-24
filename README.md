@@ -28,7 +28,34 @@ A yeoman generator for R projects.
 The resulting folder-structure looks like this:
 
 ```sh
-
+	|____.codecov.yml
+	|____.gitattributes
+	|____.gitignore
+	|____.lintr
+	|____.Rbuildignore
+	|____.travis.yml
+	|____.yo-rc.json
+	|____appveyor.yml
+	|____DESCRIPTION
+	|____emptypRoject.Rproj
+	|____inst
+	| |____NEWS
+	|____LICENSE
+	|____R
+	| |____class.R
+	| |____emptypRoject-package.R
+	| |____hello.R
+	|____README.md
+	|____src
+	| |____hello.cpp
+	|____tests
+	| |____testthat
+	| | |____test.R
+	| |____testthat.R
+	|____TODO.md
+	|____VERSIONS.md
+	|____vignettes
+	| |____emptypRoject.Rmd
 ```
 
 ## Installation
@@ -43,13 +70,13 @@ Yeoman comes with [```npm```](https://nodejs.org/en/download/current/), so insta
 Once you have the package, you can create a scaffold using:
 
 ```sh
-  yo R-bones
+  yo r-bones
 ```
 
 This builds the skeleton. Afterwards modify the sources and documentation and build both using:
 
 ```sh
-  R CMD build package && R CMD install pacage.tar.gz
+  R CMD build package && R CMD install package.tar.gz
 ```
 
 ## Author

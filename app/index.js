@@ -79,7 +79,7 @@ module.exports = class extends Generator {
             this.destinationPath("R/" + this.args.projectID + "-package.R"), {
                 projectID: this.args.projectID,
                 desc: this.args.desc,
-                email: this.args.email
+                email: this.args.email,
                 user: this.args.user
             });
 
@@ -93,7 +93,7 @@ module.exports = class extends Generator {
             });
 
         var cops = [
-            "NEWS", "LICENSE", "appveyor.yml"
+            "LICENSE", "appveyor.yml"
         ];
         for (var i in cops) {
             this.fs.copy(
