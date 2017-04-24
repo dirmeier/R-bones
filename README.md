@@ -2,9 +2,9 @@
 
 [![Project Status](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 [![travis](https://travis-ci.org/dirmeier/R-bones.svg?branch=master)](https://travis-ci.org/dirmeier/R-bones)
-[![Build status](https://ci.appveyor.com/api/projects/status/qx8noa1g0dfneco9?svg=true)](https://ci.appveyor.com/project/dirmeier/r-bones)
+[![appveyor](https://ci.appveyor.com/api/projects/status/qx8noa1g0dfneco9?svg=true)](https://ci.appveyor.com/project/dirmeier/R-bones)
 [![codecov](https://codecov.io/gh/dirmeier/R-bones/branch/master/graph/badge.svg)](https://codecov.io/gh/dirmeier/R-bones)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cc7de342ad8245129d5cd1e1df98fb62)](https://www.codacy.com/app/simon-dirmeier/R-bones?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dirmeier/python-bones&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/359ad1322daa4ef38b5e9bc9f0eae795)](https://www.codacy.com/app/simon-dirmeier/R-bones?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dirmeier/R-bones&amp;utm_campaign=Badge_Grade)
 [![npm version](https://badge.fury.io/js/generator-r-bones.svg)](https://www.npmjs.com/package/generator-r-bones)
 [![npm download](https://img.shields.io/npm/dt/generator-r-bones.svg)](https://www.npmjs.com/package/generator-r-bones)
 
