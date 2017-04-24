@@ -11,14 +11,14 @@ beforeEach(function () {
 describe("python-bones:app", function () {
     it("builds files", function () {
         assert.file([
-            "DESCRIPTION",   
-            "LICENSE",            
+            "DESCRIPTION",
+            "LICENSE",
             "TODO.md",
-            "VERSIONS.md",            
+            "VERSIONS.md,"
             "appveyor.yml",
             ".gitignore", ".gitattributes",
-            ".travis.yml", ".codecov.yml",             
-            "emptypRoject.proj",            
+            ".travis.yml", ".codecov.yml",
+            "emptypRoject.Rproj",
             "inst/NEWS", 
             "R/class.R", "R/hello.R", "emptypRoject-package.R",
             "src/hello.cpp",
