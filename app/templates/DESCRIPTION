@@ -1,0 +1,29 @@
+Package: <%= projectID %>
+Type: Package
+Title: <%= projectID %>
+Version: 0.99.0
+Date: <%= date %>
+Authors@R: person("<%= userpre %>", "<%= usersur %>",
+                    email = "<%= user %>", role = c("aut", "cre"))
+Maintainer: <%= user %> <<%= projectID %>>
+Description: <%= desc %>
+URL: https://github.com/<%= githubuser %>/<%= projectID %>
+BugReports: https://github.com/<%= githubuser %>/<%= projectID %>/issues
+biocViews:
+    Software
+License: GPL-3
+Encoding: UTF-8
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown,
+    lintr
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+SystemRequirements: C++11
+LinkingTo:
+    Rcpp,
+    RcppEigen
+Imports:
+    Rcpp
+NeedsCompilation: yes
