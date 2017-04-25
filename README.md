@@ -14,10 +14,10 @@ A yeoman generator for R projects.
 ## Introduction
 
 `R-bones` is a yeoman-generator for `R`-projects using `Rcpp` and 'RcppEigen'.
- Projects created with `R-bones` are ready for publication to *CRAN* or *Bioconductor*. The generator creates
+ Projects created with `R-bones` are ready for publication to *CRAN* or *Bioconductor*. The generator create a project with:
 
 * a GPL3 license,
-* an `Rcpp/RcppEigen` integration, 
+* basic `Rcpp/RcppEigen` integration, 
 * static code analysis and reports using `lintr`,
 * a unit-test suite using `testthat`,
 * badges for the *project status*, *build status* using Travis CI/Appveyor and *code coverage* using Codecov,
@@ -65,7 +65,7 @@ Yeoman comes with [```npm```](https://nodejs.org/en/download/current/), so insta
 
 ```sh
   npm install -g yo
-  npm install -g generator-R-bones
+  npm install -g generator-r-bones
 ```
 
 Once you have the package, you can create a scaffold using:
