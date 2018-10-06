@@ -1,4 +1,3 @@
-'use strict';
 
 var path = require("path");
 var assert = require("yeoman-assert");
@@ -8,10 +7,11 @@ beforeEach(function () {
     return helpers.run(path.join(__dirname, "../app"))
 });
 
-describe("python-bones:app", function () {
+describe("r-bones:app", function () {
     it("builds files", function () {
         assert.file([
             "DESCRIPTION",
+            "NAMESPACE",
             "LICENSE",
             "TODO.md",
             "VERSIONS.md",
@@ -22,6 +22,7 @@ describe("python-bones:app", function () {
             "inst/NEWS",
             "R/class.R", "R/hello.R", "R/emptypRoject-package.R",
             "src/hello.cpp",
+            "src/Makevars.in", "src/Makevars.win",
             "tests/testthat.R", "tests/testthat/test.R",
             "vignettes/emptypRoject.Rmd"
         ]);

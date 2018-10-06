@@ -1,3 +1,5 @@
 node_modules
 .idea/
-^coverage/*
+coverage/*
+package-lock.json
+app/templates/.Rproj.user/*

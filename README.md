@@ -1,4 +1,4 @@
-<h1 align="center"> R-bones </h1>
+# R-bones
 
 [![Project Status](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 [![travis](https://travis-ci.org/dirmeier/R-bones.svg?branch=master)](https://travis-ci.org/dirmeier/R-bones)
@@ -82,4 +82,4 @@ This builds the skeleton. Afterwards modify the sources and documentation and bu
 
 ## Author
 
-* Simon Dirmeier <a href="mailto:mail@simon-dirmeier.net">mail@simon-dirmeier.net</a>
+* Simon Dirmeier <a href="mailto:simon.dirmeier@web.de">simon.dirmeier@web.de</a>

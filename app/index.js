@@ -52,7 +52,7 @@ module.exports = class extends Generator {
     writing() {
         var usrspl = this.args.user.split(" ");
         var conff = [
-            "README.md", "VERSIONS.md", "TODO.md", "DESCRIPTION",
+            "README.md", "VERSIONS.md", "TODO.md", "DESCRIPTION", "NAMESPACE",
             "src/", "R/class.R", "R/hello.R", "tests/", "inst"
         ];
         for (var i in conff) {
@@ -93,7 +93,7 @@ module.exports = class extends Generator {
             });
 
         var cops = [
-            "LICENSE", "appveyor.yml"
+            "LICENSE", "appveyor.yml", "NAMESPACE", "cleanup"
         ];
         for (var i in cops) {
             this.fs.copy(
@@ -102,7 +102,7 @@ module.exports = class extends Generator {
         }
 
         var hcops = [
-            "codecov.yml", "gitignore", "lintr",
+            "codecov.yml", "gitignore", "lintr", "clang-format",
             "gitattributes", "Rbuildignore", "travis.yml"
         ];
         for (var i in hcops) {
