@@ -1,6 +1,6 @@
 # R-bones
 
-[![Project Status](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
+[![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
 [![travis](https://travis-ci.org/dirmeier/R-bones.svg?branch=master)](https://travis-ci.org/dirmeier/R-bones)
 [![appveyor](https://ci.appveyor.com/api/projects/status/qx8noa1g0dfneco9?svg=true)](https://ci.appveyor.com/project/dirmeier/R-bones)
 [![codecov](https://codecov.io/gh/dirmeier/R-bones/branch/master/graph/badge.svg)](https://codecov.io/gh/dirmeier/R-bones)
